@@ -1,0 +1,87 @@
+"use client";
+import React from "react";
+import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
+import Link from "next/link";
+
+const HeroSection = () => {
+  return (
+    <section className="lg:py-16">
+      <div className="grid grid-cols-1 sm:grid-cols-12">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+        >
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-blue-300">
+              Bonjour, je suis{" "}
+            </span>
+            <br></br>
+            <TypeAnimation
+              sequence={[
+                "Mouhsine",
+                1000,
+                "Développeur Web & Mobile",
+                1000,
+               
+                
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
+          </h1>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          Récemment diplômé en Architecte des systèmes d&#39;information option logiciel en bac +5, <br/> je suis à la recherche d&#39;un emploi en Développeur Junior.
+          </p>
+          <div>
+            
+      <a
+  href="/CV_Mouhsine_Melouk.pdf"
+  download
+  onClick={(e) => {
+    const confirmed = window.confirm("Voulez-vous télécharger le CV ?");
+    if (!confirmed) {
+      e.preventDefault();
+    }
+  }}
+  className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-indigo-500 to-sky-300 hover:bg-slate-800 text-white mt-3"
+>
+  <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+    Télécharger CV
+  </span>
+</a>
+
+
+
+
+
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="col-span-4 place-self-center mt-4 lg:mt-0"
+        >
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+            <Image
+              src="/images/image1.jpg"
+              alt="hero image"
+              className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={300}
+              height={300}
+              
+  unoptimized
+            />
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
