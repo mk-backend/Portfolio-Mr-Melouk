@@ -35,7 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Récemment diplômé en Architecte des systèmes d&#39;information option logiciel en bac +5, <br/> je suis à la recherche d&#39;un emploi en Développeur Junior.
+          Diplômé en Architecte des systèmes d&#39;information option logiciel en bac +5, <br/> je suis à la recherche d&#39;un emploi en Développeur Junior.
           </p>
           <div>
             

@@ -5,43 +5,55 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-  {
+ {
     id: 1,
+    title: "Modernisation AlphaRetail",
+    description: "Modernisation d’une application de gestion des stocks en PHP legacy, réduisant les erreurs de 60 % et améliorant la satisfaction utilisateur de 75 %",
+    image: "/images/projects/3.png",
+    tag: ["All", "Web","Mobile"],
+    gitUrl: "https://github.com/Mouhsine93/Symfony",
+    previewUrl: "/",
+    technologies: {
+      backEnd: "PHP, Symfony, MySQL, Apache",
+      frontEnd: "Twig, Bootstrap, Chart.js",
+      tools: "Cycle en V, UML, MVC, Git, Docker, PHPUnit, GitHub Actions, OVHcloud"
+    }
+  },
+
+  {
+    id: 2,
+    title: "Blog communautaire Web & Mobile",
+    description: "Conception et développement d’un blog sécurisé utilisé par plus de 15 membres, garantissant fiabilité et confidentialité",
+    image: "/images/projects/4.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/Mouhsine93/Blog-des-passionn-s/tree/main",
+    previewUrl: "/",
+    technologies: {
+      backEnd: "PHP, MySQL, Uwamp",
+      frontEnd: "HTML, CSS",
+      tools: "Kanban, UML, Merise, InfinityFree"
+    }
+  },
+{
+  id: 3,
+  title: "Association 1€ Solidarité",
+  description: "Site web en Vue.js permettant de collecter des dons, diffuser des informations pertinentes et partager les réseaux sociaux de l’association",
+  image: "/images/projects/2.png",
+  tag: ["All", "Web", "Mobile"],
+  gitUrl: "https://gitlab.com/Mouhsine93/uneurosolidarite",
+  previewUrl: "https://uneurosolidarite.netlify.app"
+},
+
+  {
+    id: 4,
     title: "Galerie d'image en ligne de la planète Mars ",
     description: "Application Angular avec l'API de la NASA",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/Mouhsine93/elon-mars-2",
     previewUrl: "https://e-lonmars.netlify.app",
   },
-  {
-    id: 2,
-    title: "Association 1€ Solidarité",
-    description: "Application Vue.js pour une association à but non lucratif",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://gitlab.com/Mouhsine93/uneurosolidarite",
-    previewUrl: "https://uneurosolidarite.netlify.app",
-  },
-  {
-    id: 3,
-    title: "Blog pour une influenceuse",
-    description: "Application ReactJS",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://gitlab.com/Mouhsine93/les-chroniques-de-tchikita",
-    previewUrl: "https://blog-influenceuse.netlify.app/",
-  },
-  {
-    id: 4,
-    title: "Blog des passionnés",
-    description: "Application PHP sur mobile",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/Mouhsine93/Blog-des-passionn-s/tree/main",
-    previewUrl: "/",
-  },
-  {
+ {
     id: 5,
     title: "E-Commerce",
     description: "Application Angular pour mobile en e-commerce pour le site officiel \"Le Bateau de Thibault\"",
@@ -59,6 +71,8 @@ const projectsData = [
     gitUrl: "https://github.com/Mouhsine93/Jeu-de-dames",
     previewUrl: "/",
   },
+
+
 ];
 
 const ProjectsSection = () => {
@@ -118,6 +132,7 @@ const ProjectsSection = () => {
       imgUrl={project.image}
       gitUrl={project.gitUrl}
       previewUrl={project.previewUrl}
+      technologies={project.technologies}
     />
   </motion.li>
 

@@ -64,7 +64,7 @@ const AboutSection = () => {
         <Image src="/images/image2.jpg" width={460} height={100} alt="photo"
   unoptimized />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl  font-bold text-white mb-4"><br />À propos</h2>
+          <h2 className="text-4xl  font-bold text-white mb-4 text-center"><br />À propos</h2>
           <p className="text-base lg:text-lg">
           Avec mes compétences, je mets ma créativité, ma rigueur et ma persévérance au service d’une équipe pour développer des solutions efficaces et adaptables aux nouveaux défis.
           </p>
