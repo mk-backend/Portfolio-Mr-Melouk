@@ -43,18 +43,8 @@ const projectsData = [
   gitUrl: "https://gitlab.com/Mouhsine93/uneurosolidarite",
   previewUrl: "https://uneurosolidarite.netlify.app"
 },
-
-  {
-    id: 4,
-    title: "Galerie d'image en ligne de la planète Mars ",
-    description: "Application Angular avec l'API de la NASA",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web", "Mobile"],
-    gitUrl: "https://github.com/Mouhsine93/elon-mars-2",
-    previewUrl: "https://e-lonmars.netlify.app",
-  },
  {
-    id: 5,
+    id: 4,
     title: "E-Commerce",
     description: "Application Angular pour mobile en e-commerce pour le site officiel \"Le Bateau de Thibault\"",
     image: "/images/projects/5.png",
@@ -62,6 +52,16 @@ const projectsData = [
     gitUrl: "https://github.com/Mouhsine93/bateau-thibaut",
     previewUrl: "/",
   },
+  {
+    id: 5,
+    title: "Galerie d'image en ligne de la planète Mars ",
+    description: "Application Angular avec l'API de la NASA",
+    image: "/images/projects/1.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/Mouhsine93/elon-mars-2",
+    previewUrl: "https://e-lonmars.netlify.app",
+  },
+
   {
     id: 6,
     title: "Jeu de dames",
