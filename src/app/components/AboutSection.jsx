@@ -66,7 +66,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl  font-bold text-white mb-4"><br />À propos</h2>
           <p className="text-base lg:text-lg">
-          Mon parcours académique m&#39;a permis d&#39;acquérir des compétences en conception et développement web. <br />Je souhaite désormais mettre ces compétences au service d&#39;une équipe pour contribuer à des projets concrets.<br /> Je mets ma créativité, ma rigueur et ma persévérance au service de solutions efficaces et adaptables aux nouveaux défis.
+          Mon parcours m&#39;a permis d&#39;acquérir des compétences en conception et développement web. <br />Je souhaite mettre ces compétences au service d&#39;une équipe pour contribuer à des projets concrets.<br /> Je mets ma créativité, ma rigueur et ma persévérance au service de solutions efficaces et adaptables aux nouveaux défis.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
