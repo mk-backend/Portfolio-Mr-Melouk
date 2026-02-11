@@ -18,9 +18,6 @@ const TAB_DATA = [
         <li>Angular</li>
         <li>Vue.js</li>
         <li>PHP</li>
-        <li>MySQL</li>
-        <li>Python</li>
-        <li>Java</li>
       </ul>
     ),
   },
