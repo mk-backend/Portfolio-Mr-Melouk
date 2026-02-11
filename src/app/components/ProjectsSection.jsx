@@ -37,7 +37,7 @@ const projectsData = [
 {
   id: 3,
   title: "Association 1€ Solidarité",
-  description: "Site web en Vue.js permettant de collecter des dons, diffuser des informations pertinentes et partager les réseaux sociaux de l’association",
+  description: "Site web en Vue.js, toujours utilisé par l’association, permettant de collecter des dons, diffuser des informations pertinentes et partager les réseaux sociaux",
   image: "/images/projects/2.png",
   tag: ["All", "Web", "Mobile"],
   gitUrl: "https://gitlab.com/Mouhsine93/uneurosolidarite",
