@@ -24,8 +24,8 @@ const HeroSection = () => {
               sequence={[
                 "Mouhsine",
                 1000,
-                "Développeur Web & Mobile",
-                1000,
+                {/*"Développeur Web & Mobile",
+                1000,*/}
                
                 
               ]}
@@ -35,10 +35,10 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Diplômé en Architecte des systèmes d&#39;information option logiciel en bac +5, <br/> je suis à la recherche d&#39;un emploi en Développeur Junior.
+          Diplômé en Architecte des systèmes d&#39;information option logiciel en bac +5, <br/> je suis à la recherche d&#39;un emploi en informatique.
           </p>
           <div>
-            
+          {/*   
       <a
   href="/CV_Mouhsine_Melouk.pdf"
   download
@@ -50,10 +50,10 @@ const HeroSection = () => {
   }}
   className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-indigo-500 to-sky-300 hover:bg-slate-800 text-white mt-3"
 >
-  <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+   <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
     Télécharger CV
-  </span>
-</a>
+  </span> 
+</a>*/}
 
 
 
