@@ -8,7 +8,7 @@ const projectsData = [
  {
     id: 1,
     title: "Modernisation AlphaRetail",
-    description: "Modernisation d’une application de gestion des stocks en PHP legacy, réduisant les erreurs de 60 % et améliorant la satisfaction utilisateur de 75 %",
+    description: "Cas d'étude simulé (projet de fin d'études, RNCP Niveau 7) : modernisation d'une application de gestion des stocks en PHP legacy vers Symfony, avec mise en place de tests automatisés (95 % de réussite sur les tests unitaires)",
     image: "/images/projects/3.png",
     tag: ["All", "Web","Mobile"],
     gitUrl: "https://github.com/Mouhsine93/Symfony",
@@ -23,7 +23,7 @@ const projectsData = [
   {
     id: 2,
     title: "Blog communautaire Web & Mobile",
-    description: "Conception et développement d’un blog sécurisé utilisé par plus de 15 membres, garantissant fiabilité et confidentialité",
+    description: "Conception et développement d'un blog communautaire sécurisé (projet de fin d'études, RNCP Niveau 6), garantissant fiabilité et confidentialité des données",
     image: "/images/projects/4.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/Mouhsine93/Blog-des-passionn-s/tree/main",
@@ -46,7 +46,7 @@ const projectsData = [
  {
     id: 4,
     title: "E-Commerce",
-    description: "Application Angular pour mobile en e-commerce pour le site officiel \"Le Bateau de Thibault\"",
+    description: "Projet académique — application Angular pour mobile en e-commerce, recréant la maquette du site \"Le Bateau de Thibault\"",
     image: "/images/projects/5.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Mouhsine93/bateau-thibaut",
@@ -70,6 +70,19 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Mouhsine93/Jeu-de-dames",
     previewUrl: "/",
+  },
+  {
+    id: 7,
+    title: "Stage — Plateforme d'incubation de projets (Idea To Market, chez AriMayi)",
+    description: "Développement backend Java/Spring Boot : module de gestion des livrables et notifications, intégration API avec l'équipe frontend web, mise en place de la sécurité (Spring Security, JWT) et tests d'intégration.",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+    technologies: {
+      backEnd: "Java, Spring Boot, PostgreSQL, Docker",
+      tools: "Spring Security, JWT, Postman, Git"
+    }
   },
 
 

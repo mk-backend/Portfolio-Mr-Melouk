@@ -25,9 +25,8 @@ const achievementsList = [
     value: "5",
   },
 {
-  metric: "Années d'expérience",
-  value: "5",
-  suffix: "+",
+  metric: "Diplômes obtenus",
+  value: "2",
 }
 
 ];
