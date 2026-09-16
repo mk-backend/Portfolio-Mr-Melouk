@@ -8,7 +8,7 @@ const projectsData = [
  {
     id: 1,
     title: "Modernisation AlphaRetail",
-    description: "Cas d'étude simulé (projet de fin d'études, RNCP Niveau 7) : modernisation d'une application de gestion des stocks en PHP legacy vers Symfony, avec mise en place de tests automatisés (95 % de réussite sur les tests unitaires)",
+    description: "Cas d'étude simulé (projet de fin d'études, RNCP Niveau 7) : conception et développement d'une application de gestion des stocks, modernisant un système PHP legacy vers Symfony.",
     image: "/images/projects/3.png",
     tag: ["All", "Web","Mobile"],
     gitUrl: "https://github.com/Mouhsine93/Symfony",
@@ -65,7 +65,7 @@ const projectsData = [
   {
     id: 7,
     title: "Plateforme d'incubation Idea To Market",
-    description: "Stage chez AriMayi. Développement backend Java/Spring Boot : module de gestion des livrables et notifications, intégration API avec l'équipe frontend web, mise en place de la sécurité (Spring Security, JWT) et tests d'intégration.",
+    description: "Stage chez AriMayi. Conception (UML : cas d'utilisation, classes, séquence) et développement backend Java/Spring Boot du module de gestion des livrables et notifications, intégration API avec l'équipe frontend web, sécurité (Spring Security, JWT) et tests d'intégration.",
     image: "/images/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "/",
