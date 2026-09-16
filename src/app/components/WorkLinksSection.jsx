@@ -16,7 +16,7 @@ const WorkLinksSection = () => {
         </Link>
         <span>&amp;</span>
         <Link href="https://gitlab.com/Mouhsine93" className="inline-flex items-center gap-1 text-white hover:text-indigo-300">
-          <Image src={GitlabIcon} alt="Gitlab Icon" width={26} height={24} /> GitLab
+          GitLab <Image src={GitlabIcon} alt="Gitlab Icon" width={26} height={24} />
         </Link>
       </div>
     </div>
