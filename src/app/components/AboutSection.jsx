@@ -69,6 +69,7 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-14 xl:px-52">
         <Image src="/images/image2.jpg" width={400} height={100} alt="photo"
+  className="mx-auto md:mx-0 w-full max-w-[400px] h-auto"
   unoptimized />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl  font-bold text-white mb-4 text-center"><br />À propos</h2>
