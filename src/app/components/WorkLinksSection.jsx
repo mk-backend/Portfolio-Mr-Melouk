@@ -7,15 +7,18 @@ import GitlabIcon from "../../../public/gitlab-icon.svg";
 
 const WorkLinksSection = () => {
   return (
-    <div className="text-center text-[#ADB7BE] mb-8 flex flex-wrap items-center justify-center gap-2">
-      <span>Voici une sélection de mes projets. L&apos;ensemble de mes travaux, seul et en équipe, est disponible sur mon</span>
-      <Link href="https://github.com/Mouhsine93" className="inline-flex items-center gap-1 text-white hover:text-indigo-300">
-        <Image src={GithubIcon} alt="Github Icon" width={22} height={22} /> GitHub
-      </Link>
-      <span>et</span>
-      <Link href="https://gitlab.com/Mouhsine93" className="inline-flex items-center gap-1 text-white hover:text-indigo-300">
-        <Image src={GitlabIcon} alt="Gitlab Icon" width={26} height={24} /> GitLab
-      </Link>
+    <div className="text-center text-[#ADB7BE] mb-8">
+      <p className="mb-2">Voici une sélection de mes projets.</p>
+      <div className="flex flex-wrap items-center justify-center gap-2">
+        <span>L&apos;ensemble de mes travaux, seul et en équipe, est disponible sur mon</span>
+        <Link href="https://github.com/Mouhsine93" className="inline-flex items-center gap-1 text-white hover:text-indigo-300">
+          <Image src={GithubIcon} alt="Github Icon" width={22} height={22} /> GitHub
+        </Link>
+        <span>et</span>
+        <Link href="https://gitlab.com/Mouhsine93" className="inline-flex items-center gap-1 text-white hover:text-indigo-300">
+          <Image src={GitlabIcon} alt="Gitlab Icon" width={26} height={24} /> GitLab
+        </Link>
+      </div>
     </div>
   );
 };
