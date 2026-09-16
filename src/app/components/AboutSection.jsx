@@ -9,22 +9,26 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>HTML 5</li>
-        <li>CSS 3</li>
-        <li>Tailwindcss</li>
-        <li>Bootstrap</li>
-        <li>JavaScript</li>
-        <li>ReactJS</li>
-        <li>Angular</li>
-        <li>Vue.js</li>
-        <li>PHP</li>
-        <li>Symfony</li>
-        <li>MySQL</li>
-        <li>Java</li>
-        <li>Spring Boot</li>
-        <li>PostgreSQL</li>
-      </ul>
+      <div className="grid grid-cols-2 gap-x-6">
+        <ul className="list-disc pl-2">
+          <li>HTML 5</li>
+          <li>CSS 3</li>
+          <li>Tailwindcss</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>ReactJS</li>
+          <li>Angular</li>
+        </ul>
+        <ul className="list-disc pl-2">
+          <li>Vue.js</li>
+          <li>PHP</li>
+          <li>Symfony</li>
+          <li>MySQL</li>
+          <li>Java</li>
+          <li>Spring Boot</li>
+          <li>PostgreSQL</li>
+        </ul>
+      </div>
     ),
   },
   {
