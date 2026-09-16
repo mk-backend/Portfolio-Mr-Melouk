@@ -28,6 +28,14 @@ const EmailSection = () => {
       >
         Me contacter par email
       </button>
+
+      {/* Adresse visible en secours si le bouton mailto ne s'ouvre pas (pas de client mail par defaut) */}
+      <p className="text-[#ADB7BE] text-sm z-10">
+        Le bouton ne s&#39;ouvre pas ? Écrivez-moi directement à{" "}
+        <a href="mailto:mouhsine.m@hotmail.fr" className="text-white underline hover:text-indigo-300">
+          mouhsine.m@hotmail.fr
+        </a>
+      </p>
     </section>
   );
 };
