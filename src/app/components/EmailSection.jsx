@@ -19,19 +19,16 @@ const EmailSection = () => {
 
       {/* Contenu texte */}
       <h5 className="text-4xl font-bold text-white my-2">Contactez-moi</h5>
-      <p className="text-[#ADB7BE] mb-4 w-full">
-        Ma boîte de réception est toujours ouverte. Je suis à votre écoute pour toute question ou collaboration.
+      <p className="text-[#ADB7BE] mb-4 w-full flex flex-wrap items-center gap-2">
+        <span>L&apos;ensemble de mes travaux, seul ou en groupe, est disponible sur</span>
+        <Link href="https://github.com/Mouhsine93" className="inline-flex items-center gap-1 text-white hover:text-indigo-300">
+          <Image src={GithubIcon} alt="Github Icon" width={22} height={22} /> GitHub
+        </Link>
+        <span>et</span>
+        <Link href="https://gitlab.com/Mouhsine93" className="inline-flex items-center gap-1 text-white hover:text-indigo-300">
+          <Image src={GitlabIcon} alt="Gitlab Icon" width={26} height={24} /> GitLab
+        </Link>
       </p>
-
-      {/* Icônes */}
-      <div className="socials flex flex-row gap-2 ">
-        <Link href="https://github.com/Mouhsine93">
-          <Image src={GithubIcon} alt="Github Icon" />
-        </Link>
-        <Link href="https://gitlab.com/Mouhsine93">
-          <Image src={GitlabIcon} alt="Gitlab Icon" width={50} height={48} />
-        </Link>
-      </div>
 
       {/* Bouton mailto: */}
       <div className="mt-4 z-10">
