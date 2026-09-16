@@ -61,7 +61,7 @@ const projectsData = [
     gitUrl: "https://github.com/Mouhsine93/elon-mars-2",
     previewUrl: "https://e-lonmars.netlify.app",
     technologies: {
-      tools: "API NASA (endpoint indisponible depuis, hors de mon contrôle)"
+      tools: "API NASA (endpoint décommissionné)"
     }
   },
 
