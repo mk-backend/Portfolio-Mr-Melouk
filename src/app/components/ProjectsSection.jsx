@@ -5,6 +5,20 @@ import WorkLinksSection from "./WorkLinksSection";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+  {
+    id: 7,
+    title: "Plateforme d'incubation Idea To Market",
+    description: "Stage chez AriMayi. Rédaction des user stories, conception et développement backend Java/Spring Boot du module de gestion des livrables et notifications, intégration API avec l'équipe frontend web et tests d'intégration.",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+    codeNote: "Code non public (projet réalisé dans le cadre d'un stage en entreprise)",
+    technologies: {
+      backEnd: "Java 21, Spring Boot, PostgreSQL, Spring Data JPA, Docker",
+      tools: "UML, Spring Security, JWT, JUnit, Mockito, Postman, Git"
+    }
+  },
  {
     id: 1,
     title: "Modernisation AlphaRetail",
@@ -65,21 +79,6 @@ const projectsData = [
     }
   },
 
-  {
-    id: 7,
-    title: "Plateforme d'incubation Idea To Market",
-    description: "Stage chez AriMayi. Rédaction des user stories, conception et développement backend Java/Spring Boot du module de gestion des livrables et notifications, intégration API avec l'équipe frontend web et tests d'intégration.",
-    image: "/images/projects/7.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-    technologies: {
-      backEnd: "Java 21, Spring Boot, PostgreSQL, Spring Data JPA, Docker",
-      tools: "UML, Spring Security, JWT, JUnit, Mockito, Postman, Git"
-    }
-  },
-
-
 ];
 
 const ProjectsSection = () => {
@@ -114,6 +113,7 @@ const ProjectsSection = () => {
       gitUrl={project.gitUrl}
       previewUrl={project.previewUrl}
       technologies={project.technologies}
+      codeNote={project.codeNote}
     />
   </motion.li>
 

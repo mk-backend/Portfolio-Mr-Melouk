@@ -9,25 +9,43 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="grid grid-cols-2 gap-x-6">
-        <ul className="list-disc pl-2">
-          <li>HTML 5</li>
-          <li>CSS 3</li>
-          <li>Tailwindcss</li>
-          <li>Bootstrap</li>
-          <li>JavaScript</li>
-          <li>ReactJS</li>
-          <li>Angular</li>
-        </ul>
-        <ul className="list-disc pl-2">
-          <li>Vue.js</li>
-          <li>PHP</li>
-          <li>Symfony</li>
-          <li>MySQL</li>
-          <li>Java</li>
-          <li>Spring Boot</li>
-          <li>PostgreSQL</li>
-        </ul>
+      <div className="space-y-4">
+        <div>
+          <p className="text-sm text-[#ADB7BE] mb-1">Backend</p>
+          <ul className="list-disc pl-2 grid grid-cols-2 gap-x-6">
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>PostgreSQL</li>
+            <li>PHP</li>
+            <li>Symfony</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+        <div>
+          <p className="text-sm text-[#ADB7BE] mb-1">Outils &amp; tests</p>
+          <ul className="list-disc pl-2 grid grid-cols-2 gap-x-6">
+            <li>API REST</li>
+            <li>Git</li>
+            <li>Maven</li>
+            <li>Docker</li>
+            <li>Postman</li>
+            <li>JUnit</li>
+            <li>Mockito</li>
+          </ul>
+        </div>
+        <div>
+          <p className="text-sm text-[#ADB7BE] mb-1">Frontend</p>
+          <ul className="list-disc pl-2 grid grid-cols-2 gap-x-6">
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>Tailwindcss</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+            <li>Angular</li>
+            <li>Vue.js</li>
+          </ul>
+        </div>
       </div>
     ),
   },
