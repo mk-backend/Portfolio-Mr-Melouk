@@ -55,11 +55,14 @@ const projectsData = [
   {
     id: 5,
     title: "Galerie d'image en ligne de la planète Mars ",
-    description: "Application Angular avec l'API de la NASA (le site reste en ligne, mais la recherche de photos par date ne fonctionne plus, l'endpoint NASA utilisé ayant depuis été décommissionné côté serveur)",
+    description: "Application Angular avec l'API de la NASA",
     image: "/images/projects/1.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/Mouhsine93/elon-mars-2",
     previewUrl: "https://e-lonmars.netlify.app",
+    technologies: {
+      tools: "API NASA (endpoint indisponible depuis, hors de mon contrôle)"
+    }
   },
 
   {
