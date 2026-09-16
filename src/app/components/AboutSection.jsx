@@ -62,7 +62,7 @@ const AboutSection = () => {
   unoptimized />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl  font-bold text-white mb-4 text-center"><br />À propos</h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-[#ADB7BE]">
           Avec mes compétences, je mets ma créativité, ma rigueur et ma persévérance au service d’une équipe pour développer des solutions efficaces et adaptables aux nouveaux défis.
           </p>
           <div className="flex flex-row justify-start mt-8">
