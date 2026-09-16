@@ -72,7 +72,7 @@ const projectsData = [
     previewUrl: "/",
     technologies: {
       backEnd: "Java 21, Spring Boot, PostgreSQL, Spring Data JPA, Docker",
-      tools: "Spring Security, JWT, JUnit, Mockito, Postman, Git"
+      tools: "UML, Spring Security, JWT, JUnit, Mockito, Postman, Git"
     }
   },
 
