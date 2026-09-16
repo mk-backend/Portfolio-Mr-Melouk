@@ -17,7 +17,7 @@ const achievementsList = [
   {
     prefix: "~",
     metric: "Langages",
-    value: "8",
+    value: "6",
   },
   {
     prefix: "+",
