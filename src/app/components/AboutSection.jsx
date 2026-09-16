@@ -69,7 +69,9 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl  font-bold text-white mb-4 text-center"><br />À propos</h2>
           <p className="text-[#ADB7BE]">
-          Après une reconversion professionnelle et deux diplômes obtenus au CFA INSTA via des projets académiques, j&#39;ai développé une expérience concrète en développement backend à travers plusieurs projets, de la conception à la mise en production. J&#39;utilise aussi des outils d&#39;IA (Claude, Copilot) pour accélérer mon travail, tout en gardant la maîtrise de ce que je produis. J&#39;accorde une grande importance au travail en équipe : comprendre les besoins des autres métiers, communiquer clairement, et avancer collectivement plutôt que seul.
+          Après une reconversion professionnelle et deux diplômes obtenus au CFA INSTA via des projets académiques, j&#39;ai développé une expérience concrète en développement backend à travers plusieurs projets, de la conception à la mise en production. J&#39;utilise aussi des outils d&#39;IA (Claude) pour accélérer mon travail, tout en gardant la maîtrise de ce que je produis.
+          <br /><br />
+          J&#39;accorde une grande importance au travail en équipe : comprendre les besoins des autres métiers, communiquer clairement, et avancer collectivement plutôt que seul.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
