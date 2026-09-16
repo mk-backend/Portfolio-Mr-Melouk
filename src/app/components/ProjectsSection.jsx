@@ -37,7 +37,7 @@ const projectsData = [
 {
   id: 3,
   title: "Association 1€ Solidarité",
-  description: "Premier projet réalisé hors cadre académique : site vitrine en Vue.js pour une association humanitaire basée en Île-de-France (maraudes, aide aux réfugiés, fournitures scolaires pour familles défavorisées, et soutien à des projets de construction de puits à l'international), permettant de collecter des dons. Toujours en ligne et utilisé par l'association.",
+  description: "Premier projet réalisé hors cadre académique : site vitrine en Vue.js pour une association humanitaire basée en Île-de-France (maraudes, fournitures scolaires pour familles défavorisées, et soutien à des projets de construction de puits à l'international), permettant de collecter des dons. Toujours en ligne et utilisé par l'association.",
   image: "/images/projects/2.png",
   tag: ["All", "Web", "Mobile"],
   gitUrl: "https://gitlab.com/Mouhsine93/uneurosolidarite",
