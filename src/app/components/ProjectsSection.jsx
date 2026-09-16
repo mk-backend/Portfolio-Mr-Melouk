@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import ProjectCard from "./ProjectCard";
+import WorkLinksSection from "./WorkLinksSection";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
@@ -62,15 +63,6 @@ const projectsData = [
   },
 
   {
-    id: 6,
-    title: "Jeu de dames",
-    description: "Projet Python",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Mouhsine93/Jeu-de-dames",
-    previewUrl: "/",
-  },
-  {
     id: 7,
     title: "Stage — Plateforme d'incubation de projets (Idea To Market, chez AriMayi)",
     description: "Développement backend Java/Spring Boot : module de gestion des livrables et notifications, intégration API avec l'équipe frontend web, mise en place de la sécurité (Spring Security, JWT) et tests d'intégration.",
@@ -101,16 +93,7 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-2 md:mb-1">
         Mes Projets
       </h2>
-      <p className="text-center text-[#ADB7BE] mb-8 md:mb-1">
-        Une sélection de mes projets phares — l&apos;ensemble de mes travaux, seul ou en groupe, est disponible sur{" "}
-        <a href="https://github.com/Mouhsine93" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 underline">
-          GitHub
-        </a>{" "}
-        et{" "}
-        <a href="https://gitlab.com/Mouhsine93" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 underline">
-          GitLab
-        </a>
-      </p>
+      <WorkLinksSection />
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12 mt-8">
       {projectsData.map((project, index) => (
   <motion.li
