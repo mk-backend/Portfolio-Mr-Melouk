@@ -46,7 +46,7 @@ const projectsData = [
  {
     id: 4,
     title: "E-Commerce",
-    description: "Projet académique — application Angular pour mobile en e-commerce, recréant la maquette du site \"Le Bateau de Thibault\"",
+    description: "Projet académique : application Angular pour mobile en e-commerce, recréant la maquette du site \"Le Bateau de Thibault\"",
     image: "/images/projects/5.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Mouhsine93/bateau-thibaut",
@@ -65,7 +65,7 @@ const projectsData = [
   {
     id: 7,
     title: "Plateforme d'incubation Idea To Market",
-    description: "Stage chez AriMayi — développement backend Java/Spring Boot : module de gestion des livrables et notifications, intégration API avec l'équipe frontend web, mise en place de la sécurité (Spring Security, JWT) et tests d'intégration.",
+    description: "Stage chez AriMayi. Développement backend Java/Spring Boot : module de gestion des livrables et notifications, intégration API avec l'équipe frontend web, mise en place de la sécurité (Spring Security, JWT) et tests d'intégration.",
     image: "/images/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "/",
