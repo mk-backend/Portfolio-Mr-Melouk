@@ -90,7 +90,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects"><br/><br/><br/>
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-2 md:mb-1">
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-4">
         Mes Projets
       </h2>
       <WorkLinksSection />
