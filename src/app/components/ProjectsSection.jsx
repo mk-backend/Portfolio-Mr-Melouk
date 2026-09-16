@@ -16,7 +16,7 @@ const projectsData = [
     technologies: {
       backEnd: "PHP, Symfony, MySQL, Apache",
       frontEnd: "Twig, Bootstrap, Chart.js",
-      tools: "Cycle en V, UML, MVC, Git, Docker, PHPUnit, GitHub Actions, OVHcloud"
+      tools: "Cycle en V, UML, MVC, Git, Docker"
     }
   },
 
