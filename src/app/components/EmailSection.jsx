@@ -42,7 +42,7 @@ const EmailSection = () => {
           }}
           className="bg-indigo-500 hover:bg-blue-500 text-white font-medium py-2.5 px-5 rounded-lg w-full"
         >
-          Envoyer le Message
+          Me contacter par email
         </button>
 
        
