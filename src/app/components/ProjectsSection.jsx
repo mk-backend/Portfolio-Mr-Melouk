@@ -65,7 +65,7 @@ const projectsData = [
   {
     id: 7,
     title: "Plateforme d'incubation Idea To Market",
-    description: "Stage chez AriMayi. Conception (UML : cas d'utilisation, classes, séquence) et développement backend Java/Spring Boot du module de gestion des livrables et notifications, intégration API avec l'équipe frontend web, sécurité (Spring Security, JWT) et tests d'intégration.",
+    description: "Stage chez AriMayi. Rédaction des user stories, conception (UML : cas d'utilisation, classes, séquence) et développement backend Java/Spring Boot du module de gestion des livrables et notifications, intégration API avec l'équipe frontend web, sécurité (Spring Security, JWT) et tests d'intégration.",
     image: "/images/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "/",
