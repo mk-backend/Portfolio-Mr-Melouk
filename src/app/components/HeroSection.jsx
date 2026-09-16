@@ -24,10 +24,8 @@ const HeroSection = () => {
               sequence={[
                 "Mouhsine",
                 1000,
-                {/*"Développeur Web & Mobile",
-                1000,*/}
-               
-                
+                "Développeur Backend Junior",
+                1000,
               ]}
               wrapper="span"
               speed={50}
@@ -35,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Diplômé en Architecte des systèmes d&#39;information option logiciel en bac +5, <br/> je suis à la recherche d&#39;un emploi en informatique.
+          Diplômé en Architecte des systèmes d&#39;information option logiciel en bac +5, <br/> je suis à la recherche d&#39;un poste de développeur backend junior.
           </p>
           <div>
           {/*   
