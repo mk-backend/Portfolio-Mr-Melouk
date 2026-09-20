@@ -69,7 +69,7 @@ const projectsData = [
   {
     id: 5,
     title: "Galerie d'image en ligne de la planète Mars ",
-    description: "Application Angular avec l'API de la NASA",
+    description: "Projet académique : application Angular avec l'API de la NASA",
     image: "/images/projects/1.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/Mouhsine93/elon-mars-2",
