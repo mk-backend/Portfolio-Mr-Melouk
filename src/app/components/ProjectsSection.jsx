@@ -25,7 +25,7 @@ const projectsData = [
     description: "Cas d'étude simulé (projet de fin d'études, RNCP Niveau 7) : conception et développement d'une application de gestion des stocks, modernisant un système PHP legacy vers Symfony.",
     image: "/images/projects/3.png",
     tag: ["All", "Web","Mobile"],
-    gitUrl: "https://github.com/Mouhsine93/Symfony",
+    gitUrl: "https://github.com/mk-backend/Symfony",
     previewUrl: "/",
     technologies: {
       backEnd: "PHP, Symfony, MySQL, Apache",
@@ -40,7 +40,7 @@ const projectsData = [
     description: "Conception et développement d'un blog communautaire sécurisé (projet de fin d'études, RNCP Niveau 6), garantissant fiabilité et confidentialité des données",
     image: "/images/projects/4.png",
     tag: ["All", "Web", "Mobile"],
-    gitUrl: "https://github.com/Mouhsine93/Blog-des-passionn-s/tree/main",
+    gitUrl: "https://github.com/mk-backend/Blog-des-passionn-s/tree/main",
     previewUrl: "/",
     technologies: {
       backEnd: "PHP, MySQL, Uwamp",
@@ -54,7 +54,7 @@ const projectsData = [
   description: "Premier projet réalisé hors cadre académique : site vitrine en Vue.js pour une association humanitaire basée en Île-de-France (maraudes, fournitures scolaires pour familles défavorisées, et soutien à des projets de construction de puits à l'international), permettant de collecter des dons. Toujours en ligne et utilisé par l'association.",
   image: "/images/projects/2.png",
   tag: ["All", "Web", "Mobile"],
-  gitUrl: "https://gitlab.com/Mouhsine93/uneurosolidarite",
+  gitUrl: "/",
   previewUrl: "https://uneurosolidarite.netlify.app"
 },
  {
@@ -63,7 +63,7 @@ const projectsData = [
     description: "Projet académique : application Angular pour mobile en e-commerce, recréant la maquette du site \"Le Bateau de Thibault\"",
     image: "/images/projects/5.png",
     tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/Mouhsine93/bateau-thibaut",
+    gitUrl: "https://github.com/mk-backend/bateau-thibaut",
     previewUrl: "/",
   },
   {
@@ -72,7 +72,7 @@ const projectsData = [
     description: "Projet académique : application Angular avec l'API de la NASA",
     image: "/images/projects/1.png",
     tag: ["All", "Web", "Mobile"],
-    gitUrl: "https://github.com/Mouhsine93/elon-mars-2",
+    gitUrl: "/",
     previewUrl: "https://e-lonmars.netlify.app",
     technologies: {
       tools: "API NASA (endpoint décommissionné)"
