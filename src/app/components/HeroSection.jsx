@@ -35,27 +35,6 @@ const HeroSection = () => {
           Diplômé d&#39;un Bac+5 en architecture des systèmes d&#39;information, <br/> je suis à la recherche d&#39;un poste de développeur backend junior.
           </p>
           <div>
-          {/*   
-      <a
-  href="/CV_Mouhsine_Melouk.pdf"
-  download
-  onClick={(e) => {
-    const confirmed = window.confirm("Voulez-vous télécharger le CV ?");
-    if (!confirmed) {
-      e.preventDefault();
-    }
-  }}
-  className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-indigo-500 to-sky-300 hover:bg-slate-800 text-white mt-3"
->
-   <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-    Télécharger CV
-  </span> 
-</a>*/}
-
-
-
-
-
           </div>
         </motion.div>
       </div>
