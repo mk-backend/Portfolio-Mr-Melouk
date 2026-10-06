@@ -40,8 +40,9 @@ const projectsData = [
     description: "Conception et développement d'un blog communautaire sécurisé (projet de fin d'études, RNCP Niveau 6), garantissant fiabilité et confidentialité des données",
     image: "/images/projects/4.png",
     tag: ["All", "Web", "Mobile"],
-    gitUrl: "https://github.com/mk-backend/Blog-des-passionn-s/tree/main",
+    gitUrl: "/",
     previewUrl: "/",
+    codeNote: "Code source non disponible",
     technologies: {
       backEnd: "PHP, MySQL, Uwamp",
       frontEnd: "HTML, CSS",
@@ -72,7 +73,7 @@ const projectsData = [
     description: "Projet académique : application Angular avec l'API de la NASA",
     image: "/images/projects/1.png",
     tag: ["All", "Web", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/mk-backend/elon-mars-v2",
     previewUrl: "https://e-lonmars.netlify.app",
     technologies: {
       tools: "API NASA (endpoint décommissionné)"
