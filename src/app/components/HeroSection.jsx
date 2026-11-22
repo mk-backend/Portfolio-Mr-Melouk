@@ -23,16 +23,19 @@ const HeroSection = () => {
               sequence={[
                 "Mouhsine",
                 1000,
-                "Développeur Backend",
+                "Développeur Java / Spring Boot",
+                1000,
+                "Développement assisté par IA",
                 1000,
               ]}
               wrapper="span"
+              className="block min-h-[3.34em] sm:min-h-[2em] lg:min-h-[3em]"
               speed={50}
               repeat={Infinity}
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Diplômé d&#39;un Bac+5 en architecture des systèmes d&#39;information, <br/> je suis à la recherche d&#39;un poste de développeur backend junior.
+          Diplômé d&#39;un Bac+5 en architecture des systèmes d&#39;information, <br/> je suis à la recherche d&#39;un poste de développeur Java / Spring Boot, avec une pratique du développement assisté par IA.
           </p>
           <div>
           </div>

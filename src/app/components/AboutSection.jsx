@@ -34,6 +34,13 @@ const TAB_DATA = [
           </ul>
         </div>
         <div>
+          <p className="text-sm text-[#ADB7BE] mb-1">IA</p>
+          <ul className="list-disc pl-2">
+            <li>Développement assisté par IA (Claude)</li>
+            <li>Conception, relecture, tests et validation</li>
+          </ul>
+        </div>
+        <div>
           <p className="text-sm text-[#ADB7BE] mb-1">Frontend</p>
           <ul className="list-disc pl-2 grid grid-cols-2 gap-x-6">
             <li>HTML 5</li>
@@ -56,7 +63,6 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Cycle en V</li>
         <li>Kanban</li>
-        <li>Extreme Programming (XP)</li>
         <li>UML</li>
         <li>Merise</li>
       </ul>

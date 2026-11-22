@@ -36,10 +36,10 @@ const projectsData = [
 
   {
     id: 2,
-    title: "Blog communautaire Web & Mobile",
+    title: "Blog communautaire Web responsive",
     description: "Conception et développement d'un blog communautaire sécurisé (projet de fin d'études, RNCP Niveau 6), garantissant fiabilité et confidentialité des données",
     image: "/images/projects/4.png",
-    tag: ["All", "Web", "Mobile"],
+    tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
     codeNote: "Code source non disponible",
