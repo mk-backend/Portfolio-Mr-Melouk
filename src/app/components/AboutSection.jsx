@@ -100,7 +100,7 @@ const AboutSection = () => {
           <p className="text-[#ADB7BE]">
           Après une reconversion professionnelle et deux diplômes obtenus au CFA INSTA via des projets académiques, j&#39;ai développé une expérience concrète en développement backend, de la conception aux tests d&#39;intégration. En stage, j&#39;ai par exemple résolu une collision de migrations de base de données avec un autre module de l&#39;équipe, en coordonnant la renumérotation avec mes collègues. J&#39;accorde une grande importance au travail en équipe : comprendre les besoins des autres métiers, communiquer clairement, et avancer collectivement plutôt que seul. J&#39;intègre aussi l&#39;IA (Claude) à mon flux de travail, en restant garant de la qualité et de la compréhension du code produit.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row flex-wrap justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}

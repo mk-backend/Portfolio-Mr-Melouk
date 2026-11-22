@@ -36,9 +36,9 @@ const projectsData = [
 
   {
     id: 2,
-    title: "Blog communautaire Web responsive",
-    description: "Conception et développement d'un blog communautaire sécurisé (projet de fin d'études, RNCP Niveau 6), garantissant fiabilité et confidentialité des données",
-    image: "/images/projects/4.png",
+    title: "Application web de publication d'articles",
+    description: "Projet de fin d'études (RNCP Niveau 6) : conception et développement d'une application web responsive en PHP et MySQL, avec inscription, connexion, mots de passe hachés, publication d'articles et commentaires.",
+    image: "/images/projects/4-logo.jpg",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -69,7 +69,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Galerie d'image en ligne de la planète Mars ",
+    title: "Galerie d'images en ligne de la planète Mars ",
     description: "Projet académique : application Angular avec l'API de la NASA",
     image: "/images/projects/1.png",
     tag: ["All", "Web", "Mobile"],
